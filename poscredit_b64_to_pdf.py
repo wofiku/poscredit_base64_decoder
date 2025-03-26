@@ -1,7 +1,7 @@
 # Повзаимствовано у https://github.com/wofiku / ТГ: @cavemeat
 # Спешл фор Поскредит. И ТЕБЕ ХЭППИ НЬЮ Э!
-# v0.3
-
+# v0.3.2b
+# Решение по переводу .py в .exe - https://habr.com/ru/sandbox/64702/
 
 # ИМПОРТЫ
 from glob import glob  # Поиск файлов в директории в случае массовой выгрузки
@@ -37,7 +37,7 @@ banks_full_rus: dict = {1: "ОТП Банк", 2: "Ренессанс Креди�
 
 soup_docs_logfile_out = {1: 'out_CreateAgreement', 2: 'step4_out', 4: 'out_getPrintFormsRequest',
                          6: 'stepGetPrintForms_out', 8: 'step420_out', 9: 'step5_documents_out',
-                         13: 'step2_out_CREDIT_DOCUMENTATION_BRK', 26: 'step3_out', 27: 'step3_out', 29: 'step11_out',
+                         13: 'step2_out_POSITIVE_DECISION_BANK_BRK', 26: 'step3_out', 27: 'step3_out', 29: 'step11_out',
                          44: 'stepapplication_status_out', 52: 'step3_out',
                          53: 'callback_-uralsib-pos-loans-v1-applications-callback-attachments'}
 obj_docs_full: dict = {1: 'Document', 2: 'documents', 4: 'printForm', 6: 'printForms', 8: 'return', 9: 'doc',

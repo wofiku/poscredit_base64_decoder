@@ -1,0 +1,1 @@
+pyinstaller --onefile poscredit_b64_to_pdf.py
